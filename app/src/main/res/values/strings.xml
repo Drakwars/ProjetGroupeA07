@@ -1,0 +1,17 @@
+<resources>
+    <string name="app_name">Site de vente aux enchères</string>
+
+<!--Values du login-->
+    <!--Ce qui sera affiché dans la barre au dessus-->
+    <string name="title_activity_login">login</string>
+    <string name="txt_username">Username</string>
+    <string name="txt_login">Login</string>
+    <string name="confirm">Confirm</string>
+    <string name="reset">Reset</string>
+
+    <!--Buttons-->
+    <string name="intro_login">Login</string>
+    <string name="intro_reset">Reset</string>
+
+    <string name="pwd">Password</string>
+</resources>
