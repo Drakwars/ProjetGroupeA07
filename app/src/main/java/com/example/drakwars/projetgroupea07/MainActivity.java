@@ -9,11 +9,9 @@ public class MainActivity extends AppCompatActivity {
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
-        setContentView(R.layout.activity_login);
-
-        Intent intent = new Intent(this, Login.class);
+        setContentView(R.layout.activity_menu);
+        Intent intent = new Intent(this, Menu.class);
         startActivity(intent); //Et puis là on switch
-
     }
 
 

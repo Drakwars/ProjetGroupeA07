@@ -14,4 +14,8 @@
     <string name="intro_reset">Reset</string>
 
     <string name="pwd">Password</string>
+
+    <string name="txt_objects">Aunctioned objects</string>
+    <string name="txt_users">Manage users</string>
+    <string name="txt_register">Register</string>
 </resources>
