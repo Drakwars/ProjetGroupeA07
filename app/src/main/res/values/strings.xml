@@ -21,6 +21,7 @@
     <string name="txt_email">Email</string>
     <string name="txt_confirm_pwd">Confirm password</string>
     <string name="txt_history">Sales history</string>
+    <string name="txt_return">Return</string>
 
     <string name="title_activity_register">Sign in</string>
 

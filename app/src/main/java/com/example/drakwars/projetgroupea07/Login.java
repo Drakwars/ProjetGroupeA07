@@ -4,6 +4,8 @@ import android.os.Bundle;
 import android.support.v7.app.AppCompatActivity;
 import android.support.v7.widget.Toolbar;
 import android.util.Log;
+import android.view.Menu;
+import android.view.MenuItem;
 import android.view.View;
 import android.widget.Button;
 import android.widget.EditText;
@@ -14,7 +16,6 @@ public class Login extends AppCompatActivity implements View.OnClickListener{
 
     private Button _btn_login, _btn_reset;
     private EditText _et_username, _et_pwd;
-    private Toolbar _login_tool_bar;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
@@ -31,10 +32,21 @@ public class Login extends AppCompatActivity implements View.OnClickListener{
         _et_username = (EditText) findViewById(R.id.et_log_username);
         _et_pwd = (EditText) findViewById(R.id.et_log_password);
 
-        _login_tool_bar = (Toolbar) findViewById(R.id.login_tool_bar);
-        setSupportActionBar(_login_tool_bar);
+
+        // Toolbar
+        Toolbar toolBar = (Toolbar) findViewById(R.id.login_tool_bar);
+        toolBar.setTitle(getResources().getText(R.string.txt_login));
+        toolBar.setNavigationIcon(R.drawable.ic_arrow_back_black_24dp);
+
+        toolBar.setNavigationOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View view) {
+                finish();
+            }
+        });
 
     }
+
 
     @Override
     public void onClick(View v) {
@@ -49,6 +61,7 @@ public class Login extends AppCompatActivity implements View.OnClickListener{
                 break;
         }
     }
+
 
     @Override
     public void onResume(){
