@@ -16,7 +16,6 @@ public class Menu extends AppCompatActivity implements View.OnClickListener {
 
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_menu);
-
         _menu_login = (Button) findViewById(R.id.menu_login);
         _menu_login.setOnClickListener(this);
 
@@ -34,9 +33,15 @@ public class Menu extends AppCompatActivity implements View.OnClickListener {
     @Override
     public void onClick(View v) {
 
+        Intent intent;
         switch(v.getId()){
             case R.id.menu_login :
-                Intent intent = new Intent(this, Login.class);
+                intent = new Intent(this, Login.class);
+                startActivity(intent);
+                break;
+
+            case R.id.menu_register :
+                intent = new Intent(this, Register.class);
                 startActivity(intent);
                 break;
         }

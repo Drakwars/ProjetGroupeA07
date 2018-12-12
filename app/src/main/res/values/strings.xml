@@ -1,11 +1,9 @@
 <resources>
-    <string name="app_name">Site de vente aux enchères</string>
+    <string name="app_name">Seller Site</string>
 
-<!--Values du login-->
+    <!--Values du login-->
     <!--Ce qui sera affiché dans la barre au dessus-->
     <string name="title_activity_login">login</string>
-    <string name="txt_username">Username</string>
-    <string name="txt_login">Login</string>
     <string name="confirm">Confirm</string>
     <string name="reset">Reset</string>
 
@@ -13,9 +11,30 @@
     <string name="intro_login">Login</string>
     <string name="intro_reset">Reset</string>
 
-    <string name="pwd">Password</string>
+    <string name="txt_pwd">Password</string>
 
-    <string name="txt_objects">Aunctioned objects</string>
+    <string name="txt_objects">Objects</string>
     <string name="txt_users">Manage users</string>
     <string name="txt_register">Register</string>
+    <string name="txt_username">Username</string>
+    <string name="txt_login">Login</string>
+    <string name="txt_email">Email</string>
+    <string name="txt_confirm_pwd">Confirm password</string>
+    <string name="txt_history">Sales history</string>
+
+    <string name="title_activity_register">Sign in</string>
+
+    <string name="txt_welcome">Welcome to our app !</string>
+
+    <!-- Strings related to login -->
+    <string name="prompt_email">Email</string>
+    <string name="prompt_password">Password (optional)</string>
+    <string name="action_sign_in_short">Sign in</string>
+    <string name="error_invalid_email">This email address is invalid</string>
+    <string name="error_invalid_password">This password is too short</string>
+    <string name="error_incorrect_password">This password is incorrect</string>
+    <string name="error_field_required">This field is required</string>
+    <string name="permission_rationale">"Contacts permissions are needed for providing email
+        completions."
+    </string>
 </resources>

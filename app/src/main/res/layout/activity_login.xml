@@ -8,14 +8,17 @@
     tools:context=".Login">
 
     <TextView
+
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:text="@string/txt_username"/>
 
+
     <EditText
         android:id="@+id/et_log_username"
         android:layout_width="match_parent"
-        android:layout_height="wrap_content" />
+        android:layout_height="wrap_content"
+        android:hint="@string/txt_username"/>
 
     <TextView
         android:layout_width="match_parent"
@@ -26,7 +29,7 @@
         android:id="@+id/et_log_password"
         android:layout_width="match_parent"
         android:inputType="textPassword"
-        android:hint="@string/pwd"
+        android:hint="@string/txt_pwd"
         android:layout_height="wrap_content" />
 
     <LinearLayout
