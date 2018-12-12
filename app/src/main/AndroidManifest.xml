@@ -27,7 +27,6 @@
 
             />
 
-
         <activity
             android:name=".Register"
             android:label="@string/title_activity_register"/>
